@@ -1,0 +1,86 @@
+/* Main Profile Container */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f0f4f8, #e8eaf6); /* Soft gradient background */
+    padding: 20px;
+}
+
+/* Profile Paper (Card) */
+.profile-paper {
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;  /* Slightly more rounded corners */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Softer and more prominent shadow */
+    background-color: #ffffff;
+    transition: transform 0.3s ease;  /* Add smooth hover effect */
+}
+
+.profile-paper:hover {
+    transform: translateY(-10px); /* Slight lift effect on hover */
+}
+
+/* Profile Header Section (Avatar & Title) */
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px; /* Increase space between header and details */
+}
+
+.profile-header .MuiAvatar-root {
+    width: 140px;  /* Larger avatar size */
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #2196f3; /* Blue border around avatar */
+}
+
+/* Profile Input Fields */
+.profile-input {
+    margin-bottom: 20px;  /* Increased margin for better spacing */
+}
+
+.profile-input input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.profile-input input:focus {
+    border-color: #2196f3;  /* Highlight the input on focus */
+}
+
+/* Profile Buttons Section */
+.profile-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;  /* More space between buttons */
+}
+
+button {
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: #2196f3;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #1976d2;
+    transform: scale(1.05); /* Slight button scale on hover */
+}
+
+button:active {
+    transform: scale(1);  /* Reset button size when clicked */
+}

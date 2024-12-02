@@ -1,0 +1,99 @@
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5; /* Light background for the page */
+}
+
+/* Styling the form */
+.login-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+/* Adding spacing between form fields */
+.login-form .MuiTextField-root {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* Buttons styling */
+.login-form .MuiButton-contained {
+  background-color: #1976d2;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.login-form .MuiButton-outlined {
+  color: #1976d2;
+  border-color: #1976d2;
+}
+
+/* Signup link */
+.login-form a {
+  text-decoration: none;
+  color: #1976d2;
+  font-size: 14px;
+  margin-top: 15px;
+  display: block;
+  text-align: center;
+}
+
+.login-form a:hover {
+  text-decoration: underline;
+}
+
+.sign-div1{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+.sign-div2 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+.sign-div2 a:hover {
+  text-decoration: underline;
+}
+
+
+.sign-div1 .MuiTextField-root {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.sign-div1 .MuiButton-contained {
+  background-color: #1976d2;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.sign-div2 .MuiButton-outlined {
+  color: #1976d2;
+  border-color: #1976d2;
+}
+
+
+.sign-div2 a {
+  text-decoration: none;
+  color: #1976d2;
+  font-size: 14px;
+  margin-top: 15px;
+  display: block;
+  text-align: center;
+}
+.sidebar{
+  text-align: center;
+}
